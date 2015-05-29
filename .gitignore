@@ -1,0 +1,20 @@
+# sublime
+*.sublime-*
+
+# kdevelop
+*.kdev4
+.kdev4/
+
+# clion
+.idea/
+
+# biicode
+bin/
+bii/
+biicode.conf
+
+# object files
+*.o
+
+# executables
+find . -executable -type f >>.gitignore
